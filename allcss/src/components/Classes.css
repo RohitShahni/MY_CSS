@@ -1,0 +1,9 @@
+.maincontainer-classes{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20px;        
+}

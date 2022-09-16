@@ -1,0 +1,8 @@
+.maincontainer-important{
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    font-size: 50px;
+    text-align: center;    
+    margin-top: 20px;    
+}
