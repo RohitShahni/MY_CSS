@@ -1,0 +1,17 @@
+.maincontainer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;   
+    margin-top: 15px; 
+
+}
+
+.items{
+   background-color: red;
+}
+
+.items{
+    background-color: aqua;
+}

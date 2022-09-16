@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: yellow;
+}
+
+
+.mainbox{
+    border: 10px solid purple;
+    display: flex;
+    height: 100vh;
+    width: 1600px;
+    padding: 5px;
+    background-color: aqua;
+    margin: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    /* justify-content: center;
+    align-items: center4; */
+
+}
+
+/* mainbox1 */
+
+.mainbox1{
+    border: 3px solid red;
+    padding: 10pxs;
+    height: 850px;
+    width: 700px;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+.footer{
+    margin-top: 5px;
+    width: 400px;
+    margin-left: 10px;
+}
+/* for box 1 */
+.flex_container1{
+    border: 3px solid black;
+    display: flex;
+    height: 800px;
+    width: 550px;
+    background-color: black;
+    /* justify-content: center; 
+    justify-content: flex-start;
+    justify-content: flex-end; */
+    margin-top: 15px;
+    margin-left: 46px;
+    flex-wrap: wrap;
+  
+    /* align-items: flex-end;
+    align-items: flex-start; */
+    
+
+ 
+
+}
+
+.fName1{
+    border: 2px solid red;
+    padding: 3px;
+    margin: 3px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+    /* margin-bottom: 500px;
+    margin-left: 20px; */
+}
+
+.item1{
+    order: 3;
+    flex-grow:3;
+}
+.item2{
+   order: 2;
+   flex: shrink 2;
+   
+}
+.item4{
+    align-self: center;
+}
+/* mainbox2-3 */
+.mainbox2-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(21, 155, 144);
+    border: 3px solid black;
+     height: 900px;
+    width: 700px;
+    margin-right: 51px;
+    margin-top: 37px;
+    flex-wrap: wrap;
+}
+
+/* for box 2 */
+.flex_container2{
+    border: 3px solid black;
+    display: flex;
+    height: 450px;
+    width: 600px;
+    background-color: orange;
+    margin-top: 27px;
+    margin-left: 31px;
+    flex-wrap: wrap;
+
+}
+
+.flex_container2 :nth-child(2){
+    align-self: center;
+}
+
+.fName2{
+    border: 2px solid red;
+    padding: 3px;
+    margin: 3px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+/* for box 3 */
+.flex_container3{
+    border: 3px solid black;
+    display: flex;
+    height: 300px;
+    width: 600px;
+    background-color: blue;
+    margin-left: 31px;
+    margin-bottom: 66px;
+    flex-wrap: wrap;
+
+}
+
+.fName3{
+    border: 2px solid red;
+    padding: 3px;
+    margin: 3px;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+
+
