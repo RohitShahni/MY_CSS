@@ -1,8 +1,33 @@
-.maincontainer-combinators{
-    background-color: rgb(75, 243, 229);
-    width: 100vw;
-    height: 100vh;
-    font-size: 50px;
-    text-align: center;    
-    margin-top: 20px;  
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+
+h1 {
+    align-items: center;
+    background-color: red;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* div li p {
+    background-color: blue;
+    font-size: 30px;
+} */
+
+/* 
+p{
+    background-color: black;
+} */
+
+div > p{
+    background-color: blue;
+    font-size: 30px;
+}
+
+div + p{
+    background-color: black;
 }

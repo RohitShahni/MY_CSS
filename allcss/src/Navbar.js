@@ -41,20 +41,20 @@ const Navbar = () => {
         return <Combinators />
         break;
 
-        case 6:
-          return <Specificity />
-          break;
-          
-          case 7:
-            return <Important />
-            break;
+      case 6:
+        return <Specificity />
+        break;
 
-            case 8:
-              return <Boxmodel />
-              break;
-              case 9:
-                return <Mediaqueries />
-                break;
+      case 7:
+        return <Important />
+        break;
+
+      case 8:
+        return <Boxmodel />
+        break;
+      case 9:
+        return <Mediaqueries />
+        break;
     }
   }
 
@@ -71,6 +71,8 @@ const Navbar = () => {
         <button className='maincontainer-item_btn' onClick={() => { fun(7) }}> The important</button>
         <button className='maincontainer-item_btn' onClick={() => { fun(8) }}> Box Model</button>
         <button className='maincontainer-item_btn' onClick={() => { fun(9) }}>Media Queries</button>
+        <button className='maincontainer-item_btn' onClick={() => { fun(9) }}>%,px,em,rem<br/>vh,vw,vmin,vmax</button>
+        <button className='maincontainer-item_btn' onClick={() => { fun(9) }}>responsive</button>
 
       </div>
 

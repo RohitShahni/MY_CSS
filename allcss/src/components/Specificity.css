@@ -1,8 +1,51 @@
-.maincontainer-Specificity{
-    background-color: rgb(191, 50, 204);
-    width: 100vw;
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div-Specificity {
+    background-color: yellow;
+    text-align: center;
+}
+
+
+/* 
+. 10,000 point to !importaint
+. 1000 to inline
+. 100 to id 
+. 10 to class, attribute or pseudo-class
+. 1 for element selector and pseudo-elements
+.0 to universal selector */
+
+/* 1 point */
+p {
+    background-color: green;
+}
+
+/* 10 point */
+.red {
+    background-color: red;
+    
+}
+
+
+
+
+/* 1+10 = 11 point */
+div .red {
+    background-color: yellow;
+    background-color: grey;
+    color: white;
     font-size: 50px;
-    text-align: center;    
-    margin-top: 20px;   
+}
+
+/* 100+1 =101 point */
+#div1 p {
+    background-color: rgb(11, 44, 44);
+}
+
+#btn-Specificity {
+    align-self: center;
+
 }

@@ -1,8 +1,17 @@
-.maincontainer-boxmodel{
-    background-color:red;
-    width: 100vw;
-    height: 100vh;
-    font-size: 50px;
-    text-align: center;    
-    margin-top: 20px;      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#boxcontainer{
+    background-color:black;
+    height: 800px;
+    width: 800px;
+    padding: 20px;
+    margin:30px;
+   
+}
+.boxcontainer-div1_second{
+    margin: 10px;
 }

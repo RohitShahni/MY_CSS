@@ -1,9 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .maincontainer-classes{
-    background-color: black;
-    color: white;
+   background-color: white;
     font-size: 50px;
     text-align: center;
     width: 100vw;
     height: 100vh;
     margin-top: 20px;        
+}
+
+/* this is element selector */
+p1{
+    background-color: red;
+    color: black;
+}
+
+/* this is id selector */
+#firstp{
+    background-color: black;
+    color: yellow;
+}
+
+/* this is class selector */
+.class3{
+    background-color:grey;
+    color: white;
+}
+h6{
+    background-color: yellow;
+    color: black;
+}
+
+/* this is grouping selector */
+p2, h5{
+background-color: blue;
+}
+
+button{
+    height: 106px;
+    width: 416px;
+    font-size: 46px;
+    border-radius: 62px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 10px;
+    padding: 5px;
 }
